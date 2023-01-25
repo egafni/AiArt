@@ -1,0 +1,8 @@
+[
+    {
+        "instance_prompt": "3dCartoonArt style",
+        "class_prompt": "style",
+        "instance_data_dir": "/home/ubuntu/projects/AiArt/data/v2_280",
+        "class_data_dir": "/home/ubuntu/experiments/v5_style_pp_1__te_0/class_data"
+    }
+]

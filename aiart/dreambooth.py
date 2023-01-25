@@ -803,11 +803,6 @@ def main(args):
                 optimizer.zero_grad(set_to_none=True)
                 loss_avg.update(loss.detach_(), bsz)
 
-                if step == 0:
-                    print('loss', loss, float(loss))
-                    print('batch',batch)
-                    exit()
-
 
             if not global_step % args.log_interval:
                 logs = {"loss": loss_avg.avg.item(), "lr": lr_scheduler.get_last_lr()[0]}

@@ -1,5 +1,6 @@
 .idea
 tmp*
+data
 catboost_info
 model.params
 .pdm.toml
@@ -111,7 +112,7 @@ celerybeat.pid
 
 # Environments
 .env
-.venv
+.venv/
 env/
 venv/
 ENV/

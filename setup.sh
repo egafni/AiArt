@@ -5,3 +5,4 @@ pip install --no-deps https://github.com/brian6091/xformers-wheels/releases/down
 pip install diffusers
 pip install -U --pre triton
 pip install accelerate transformers ftfy bitsandbytes==0.35.0 gradio natsort
+pip install jupyterlab torchvision
